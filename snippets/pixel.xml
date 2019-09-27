@@ -26,15 +26,12 @@
   <project path="external/connectivity" name="external_connectivity" remote="pixel" />
   <project path="external/json-c" name="external_json-c" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/fm" name="hardware_qcom_fm" remote="pixel" />
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media-caf_sdm845" remote="pixel" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media-caf_sm8150" remote="pixel" />
   <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="pixel" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
@@ -64,13 +61,13 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
